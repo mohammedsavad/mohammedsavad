@@ -1,4 +1,3 @@
-
 let my_cart={}
 $(document).ready(function () {
     $(".address").hide();
@@ -28,6 +27,7 @@ $(document).ready(function () {
                                         
 */
 });
+/*
 $("#submit").click(function(){
     my_cart['samsung']=[ 30000,1,'phone.jpeg',30000]
 
@@ -44,9 +44,15 @@ $("#submit3").click(function(){
     my_cart['Dinner_set']=[7000,1,'dinnerset.jpg',7000]
 
 })
+*/
+
 
 $('.cart').click(function (e) { 
     e.preventDefault();
+    product_name = $(this).parent().children('h2').text();
+    price = parseInt($(this).parent().children('p').text());
+    img =  $(this).parents('tr').find('img').attr('src');
+    my_cart[product_name] =[price,1,img,price]
     $('.alert').text("Item added to cart");
     $('.alert').show();
 });
