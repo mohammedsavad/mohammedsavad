@@ -1,0 +1,208 @@
+body{
+    background-color: white;
+    
+    margin: 0;
+}
+table{
+    width: 700px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(19, 17, 17, 0.2);
+    
+}
+td{
+    width: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+  }
+  
+  li {
+    float: left;
+    height: 50px;
+  }
+
+i{
+    margin-right: 4REM;
+    font-size: 30px !important;
+    box-sizing: border-box;
+    
+}
+h6{
+    background-color:gray;
+    height: 3rem;
+    margin: 0;
+    padding-top: .5rem;
+    padding-left: 2rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+h6:hover{
+    
+    text-decoration: underline;
+}
+.warning{
+    color: red;
+}
+
+#homes{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #e3eefe;
+}
+.alert{
+    height:60px;
+    background-color:black;
+    color: #fff;
+    font-weight: 600;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: large
+}
+label{
+
+    margin-left: 10px;
+    margin-right: 35px;
+    font-size: large;
+}
+#upi,#wallets,#cr,#cash{float:left;}
+#next{
+    margin-top: 20px;
+    width:70px;
+}
+#end{
+    margin-left: 100px;
+
+}
+.fa-cc-amex{margin-left: -135px;
+    margin-right: 35px;
+    
+
+}
+.fa-cc-mastercard, .fa-cc-visa{margin-left: -35px;
+    margin-right: 35px;
+
+}
+
+#txt{
+    width:70px;
+    margin-right: 50px;
+    height:15px;
+    margin-top: 10px;
+}
+#lastpay{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    background-color: white;
+}
+#icons{
+    margin-left: 250px;
+    font-size: medium;
+    bottom: 100px;
+}
+button{ 
+    padding: 10px;
+    margin: 5px;
+    
+    font-size: 20px;
+    color: #fff;
+    background-color: #5f8fd6
+}
+button:hover{
+    
+    background-color: #fff;
+    color: black;
+    text-transform: capitalize;
+}
+table{
+    overflow: hidden;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #e3eefe;
+}
+img{
+    height: 140px;
+    width:124px;
+}
+.upds{
+    height: 2.5rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 20px;
+    text-align: center  ;
+}
+#carts{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    
+    margin-bottom: 50px;
+}
+#address, #payment {
+    margin-top: 4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#lastpay{
+    margin-left: 400px;
+}
+.address-warper{
+    border: 3px solid #0049b7;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #cddbf0;
+
+}
+.form-control{
+    margin-top: 2px;
+    height: 2.5rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 500px;
+    margin-bottom: 2px;
+    text-align: center  ;
+}
+#clear,#add{
+    width:250px ;
+    float: left;
+}
+#check{
+    min-width:250px ;
+    float: left;
+}
+h1{text-align: center;}
+#cartraw{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#icons{
+    margin-left: 60px;
+    padding-top: 10px;
+    
+}
+#thnk{
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+#end{align-items: center;
+    justify-content: center;
+width: 950px;}    
+#card{float: left;}
